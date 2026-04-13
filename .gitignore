@@ -1,0 +1,171 @@
+# ====================
+# Python
+# ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+*.manifest
+*.spec
+
+# ====================
+# 虚拟环境
+# ====================
+.venv/
+venv/
+ENV/
+env/
+.env
+.venv
+.virtualenv
+virtualenv/
+
+# ====================
+# IDE / 编辑器
+# ====================
+# PyCharm
+.idea/
+*.iml
+.DS_Store
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# ====================
+# 项目特定 - 敏感配置
+# ====================
+# API密钥配置（重要！不要提交）
+config/apis.yml
+config/apis_local.yml
+*.secret.yml
+*.secret.yaml
+
+# ====================
+# 项目特定 - 数据文件
+# ====================
+# 向量数据库
+chroma_db/
+chroma/
+*.chroma
+
+# 知识库原始数据（保留目录结构，忽略具体文件）
+data/
+!data/.gitkeep
+
+# 保存的行程
+saved_itineraries/
+*.itinerary.json
+
+# 聊天历史
+chat_history/
+*.chat.json
+
+# 日志文件
+logs/
+*.log
+*.log.*
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# ====================
+# 系统文件
+# ====================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+*.swp
+*.swo
+
+# ====================
+# 测试和覆盖率
+# ====================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+*.cover
+*.py,cover
+
+# ====================
+# 文档生成
+# ====================
+docs/_build/
+site/
+*.pdf
+*.epub
+
+# ====================
+# 部署相关
+# ====================
+*.pid
+*.seed
+*.lock
+.DS_Store
+.env.local
+.env.*.local
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ====================
+# Docker
+# ====================
+docker-compose.override.yml
+*.tar.gz
+*.tar
+docker/
+
+# ====================
+# 备份文件
+# ====================
+*.zip
+*.rar
+*.7z
+*.bak
+*.backup
+*.old
+*.orig
